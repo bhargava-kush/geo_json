@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=geo_json
+POSTGRES_USER=nfbVlZFrVmrGOhmUuIXqayfoTbdBIFhj
+POSTGRES_PASSWORD=WmYKHLaesCjGdoHnxH4B90tlLPH3FDLx8K0a6scjtq69Ufta8RUNWTo6SvkKiJPI
