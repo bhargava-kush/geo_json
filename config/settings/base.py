@@ -62,7 +62,7 @@ DJANGO_APPS = [
     # 'django.contrib.humanize', # Handy template tags
     'django.contrib.admin',
     'rest_framework_gis',
-    'django.contrib.gis.db.backends.postgis',
+    'django.contrib.gis',
 
 ]
 THIRD_PARTY_APPS = [

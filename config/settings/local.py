@@ -24,6 +24,21 @@ CACHES = {
     }
 }
 
+# DATABASE
+
+DATABASES = {
+    # 'default': env.db('DATABASE_URL', default='postgres://postgres:postgres@localhost/geo_json'),
+   'default': {
+     'ENGINE':'django.contrib.gis.db.backends.postgis',
+     'NAME': 'geo_json',
+     'USER': 'postgres',
+     'PASSWORD': 'postgres',
+     'HOST':'localhost',
+    }
+}
+
+DATABASES['default']['ATOMIC_REQUESTS'] = True
+
 # TEMPLATES
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#templates

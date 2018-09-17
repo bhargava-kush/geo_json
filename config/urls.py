@@ -10,7 +10,7 @@ from polygons import views
 
 router = routers.DefaultRouter()
 router.register(r'providers', views.ProvidersViewSet)
-
+router.register(r'polygons', views.PolygonsViewSet)
 urlpatterns = [
 
     path("", TemplateView.as_view(template_name="pages/home.html"), name="home"),
@@ -28,7 +28,7 @@ urlpatterns = [
     ),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
-    url(r'^api/ ', include(router.urls)),
+    url(r'^api/', include(router.urls)),
 ] + static(
     settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
 )
