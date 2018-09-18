@@ -263,5 +263,4 @@ SOCIALACCOUNT_ADAPTER = 'geo_json.users.adapters.SocialAccountAdapter'
 
 # Your stuff...
 # ------------------------------------------------------------------------------
-GDAL_LIBRARY_PATH = '/usr/local/lib/libgdal20'
-GEOS_LIBRARY_PATH = '/usr/local/lib/libgeos-3.5.0'
+

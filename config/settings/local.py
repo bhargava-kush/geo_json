@@ -82,3 +82,5 @@ CELERY_TASK_ALWAYS_EAGER = True
 CELERY_TASK_EAGER_PROPAGATES = True
 # Your stuff...
 # ------------------------------------------------------------------------------
+GDAL_LIBRARY_PATH = '/usr/local/lib/libgdal.so'
+GEOS_LIBRARY_PATH = '/usr/local/lib/libgeos_c.so'
